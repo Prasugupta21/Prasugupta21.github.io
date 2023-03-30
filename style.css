@@ -1,0 +1,657 @@
+.navmargin{
+    
+    margin-left:50rem;
+}
+.background{
+    background-image: var(--bs-gradient);
+}
+
+
+
+  
+#about{
+    background-color:#00ffff30;
+   padding:3rem;
+    
+}
+#about p{
+
+    margin-top: 36px;
+    margin-left: 30rem;
+}
+.introimg{
+    text-align: center;
+    border-radius: 10rem;
+    margin-left:38rem;
+    margin-top: 2rem;
+}
+.Radhe{
+    font-family: 'Montserrat', sans-serif;
+}
+.cursive{
+    font-family: 'Great Vibes', cursive;}
+    #skills{
+       padding:8rem;
+    }
+
+.logo{
+  border-radius: 5%;
+}
+    /* Section */
+    #Hobbies{
+      background-color: #b79eca9e;
+          
+    }
+    .hobbiesHeading{
+      font-size:2rem;
+    
+    }
+    .hobbiesContent{
+      text-align: center;
+      margin:auto;
+    }
+    
+    .img img{  
+ height:250px;
+ text-align: center;
+ width: 250px;
+ animation-name:img-animation;
+ position: relative;
+ animation-duration:1000s;
+    }
+
+      
+    
+      .skills {
+      
+        margin: auto;
+       background-color:#a9e0c1fa;
+        
+        text-align: center;
+       
+      }
+      
+      
+      .skill-header {
+        margin-bottom: 1rem;
+      }
+      .icon-card {
+        background-color: #fff;
+        border-radius: 11px;
+        box-shadow: 0 3px 10px var(--secondary-shadow);
+        padding: 20px;
+        margin: 10px;
+      }
+      .skills-wrapper img {
+        padding: 1.25rem;
+      }
+      
+      .icon {
+        width: 11.875rem;
+        height: 11.25rem;
+      }
+      .heading{
+        font-family: 'Big Shoulders Inline Text', cursive;
+        text-align: center;
+        padding: 3rem;
+      }
+      
+   
+      @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+      
+      .container p span{
+        position:relative;
+        left:-8rem;
+      }
+      .carousel-img{
+        
+        
+        height:auto;
+        max-width: 30%;
+        margin: 2rem auto;
+      margin-left:26rem;
+      border-radius: 1.2rem;
+    
+    
+      }
+      .caurosel-Heading{
+        text-align: center;
+        color: #41011ef7;
+        font-size:bold;
+      }
+      .caurosel-para{
+        text-align: center;
+        font-family: 'Cormorant', serif;
+        font-size:1.5rem;
+        margin-left:1rem;
+      }
+      .carousel-img-container{
+        padding:7% 10%;
+      }
+      .container p {
+        font-size: 1rem;
+      
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        
+      
+      }
+      .container p span.typed-text {
+        
+        color: black;
+      }
+      .container p span.cursor {
+        display: inline-block;
+        background-color: white;
+       
+        
+        animation: blink 1s infinite;
+      }
+      .container p span.cursor.typing {
+        animation: none;
+      }
+      @keyframes blink {
+        0%  { background-color: #ccc; }
+        49% { background-color: #ccc; }
+        50% { background-color: transparent; }
+        99% { background-color: transparent; }
+        100%  { background-color: #ccc; }
+      }
+      .skillHeading{
+        margin:auto;
+        
+       
+      }
+      .skillimg{
+        opacity: 1;
+    transition: all .5s ease;
+      }
+      .hobbiesimg{
+        position: relative;
+        height:50px;
+        width: 50px;
+      }
+    
+  /* Contact  */
+  #contact{
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
+      "sans-serif";
+      background: #0e101f;
+      padding-bottom: 2.5rem;
+  }
+  *:focus {
+    outline: 0;
+  }
+
+  
+  .wrapper {
+    margin: 100px auto 0;
+    width: 70%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    width: 100%;
+    margin: 0;
+  }
+  
+  form * {
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    font-weight: 300;
+    
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  form .field {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  form .field label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #b13e8b, #372056);
+    width: 100%;
+    height: 64px;
+    transition: width 333ms ease-in-out;
+    text-align: center;
+    padding: 18px 0;
+  }
+  
+  form .field input[type="text"],
+  form .field textarea {
+    border: none;
+    width: 100%;
+    height: 64px;
+    margin: 0;
+    padding-left: 19.5%;
+    color: #313a3d;
+  }
+  form #email::placeholder{
+   text-align: left;
+  }
+  
+  form #msg {
+    height: 64px;
+    resize: none;
+    transition: all 333ms ease-in-out;
+    padding-top: 18px;
+  }
+  form textarea:focus#msg,
+  form textarea:not(:placeholder-shown)#msg {
+    height: 166px;
+  }
+  form input[type="text"]:focus + label,
+  form input[type="text"]:not(:placeholder-shown) + label,
+  form textarea:focus + label,
+  form textarea:not(:placeholder-shown) + label,
+  form .field:hover label {
+    width: 18%;
+  }
+  form input[type="submit"] {
+    background: linear-gradient(90deg, #b13e8b, #812d65);
+    
+    border: none;
+    position: relative;
+    padding: 13px 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  form input[type="submit"]:hover,
+  form input[type="submit"]:focus {
+    background: #372056;  
+  }
+  
+  .btn-background{
+    background: linear-gradient(90deg, #b13e8b, #812d65);
+ 
+
+  }
+  .btn-background:hover,.btn-background:focus{
+    background: #372056;  
+
+  }
+
+  .contact-icon{
+    margin-bottom: 0;
+    display: flex;
+    text-align: center;
+  justify-content: center;
+  
+  }
+  .contact-icon li {
+    list-style: none;
+   color:white;
+   margin:1.8rem;
+   font-size:2.4rem;
+  }
+  .contact-icon li a i {
+   
+   color:#fff;
+   
+  }
+@media (max-width:1200px) and (min-width:511px){
+    .navmargin{
+        margin-left:10px;
+    }
+    .text2{
+        
+        font-size:1.2rem;
+        font-weight: bold;
+    }
+    .contact-icon li {
+      
+     font-size:1.4rem;
+     margin:1.5rem;
+    }
+    .container p span{
+     margin:auto;
+     left:0;
+    }
+    .carousel-img{
+        
+        
+   
+      max-width:70%;
+    margin:auto;
+    margin-top:3.5rem;
+
+   
+    
+  
+  
+    }
+    .caurosel-Heading{
+      font-size:1.5rem;
+    }
+    .caurosel-para{
+      font-size:1.5rem;
+      margin-top:2rem;
+    }
+ 
+    #about p{
+
+       
+        margin-left:auto;
+    }
+    #about{
+        background-size:contain;
+        text-align: center;
+        
+    }
+    .introimg{
+        
+       margin-top:1rem;
+        margin-left:auto;
+    }
+    
+    .img1{
+        height:8rem;
+        width:8rem;
+        top:50px;
+        left:75px;
+    }
+    
+ 
+    
+    } 
+@media (max-width:510px ) and (min-width:381px){
+  form input[type="text"]:focus + label,
+  form input[type="text"]:not(:placeholder-shown) + label,
+  form textarea:focus + label,
+  form textarea:not(:placeholder-shown) + label,
+  form .field:hover label {
+    width: 0%;
+    visibility: hidden;
+  }
+  
+#skills{
+  padding:0rem;
+}
+  form #email::placeholder,form #name::placeholder,form #msg::placeholder {
+    position:relative;
+    left:18%;
+    width:100%;
+    font-size:1rem;
+    
+}
+.navmargin{
+  margin-left:10px;
+}
+.text2{
+  font-size:1.2rem;
+  font-weight: bold;
+}
+.contact-icon li {
+
+font-size:1.4rem;
+margin:1.5rem;
+}
+.container p span{
+margin:auto;
+left:0;
+}
+.carousel-img{
+  
+  
+
+max-width:70%;
+margin:auto;
+margin-top:3.5rem;
+
+
+
+
+
+}
+.caurosel-Heading{
+font-size:1.5rem;
+}
+.caurosel-para{
+font-size:1rem;
+margin-top:2rem;
+}
+
+#about p{
+
+ 
+  margin-left:auto;
+}
+#about{
+  background-size:contain;
+  text-align: center;
+  
+}
+.introimg{
+  
+ margin-top:1rem;
+  margin-left:auto;
+}
+
+.img1{
+  height:8rem;
+  width:8rem;
+  top:50px;
+  left:75px;
+}
+
+
+
+
+  form #email::placeholder {
+    
+    left:11%;
+
+    
+    
+}
+
+
+
+}
+@media (max-width:380px){
+  .navmargin{
+    margin-left:10px;
+}
+
+.text2{
+    font-size:.9rem;
+    font-weight: bold;
+}
+
+#skills{
+  padding:0rem;
+}
+.contact-icon li {
+  
+ font-size:1.4rem;
+ margin:1.5rem;
+}
+.container p span{
+ margin:auto;
+ left:0;
+}
+.carousel-img{
+    
+    
+
+  max-width:70%;
+margin:auto;
+margin-top:3.5rem;
+
+
+
+
+
+}
+.caurosel-Heading{
+  font-size:1.5rem;
+}
+.caurosel-para{
+  font-size:1rem;
+  margin-top:2rem;
+}
+
+#about p{
+
+   
+    margin-left:auto;
+}
+#about{
+  background-color: #00ffc738;
+    background-size:contain;
+    text-align: center;
+    
+}
+.introimg{
+    
+   margin-top:1rem;
+    margin-left:auto;
+}
+
+.img1{
+    height:8rem;
+    width:8rem;
+    top:50px;
+    left:75px;
+}
+
+
+
+  form input[type="text"]:focus + label,
+  form input[type="text"]:not(:placeholder-shown) + label,
+  form textarea:focus + label,
+  form textarea:not(:placeholder-shown) + label,
+  form .field:hover label {
+    width: 0%;
+    visibility: hidden;
+  }
+  form #email::placeholder,form #name::placeholder,form #msg::placeholder {
+    position:relative;
+    left:8%;
+    width:100%;
+    font-size:.8rem;
+    
+}
+
+  form #email::placeholder {
+    
+    left:-12%;
+    
+    
+}
+.contact-icon{
+  margin-left: -2.5rem;
+}
+.contact-icon li {
+ 
+ margin:.9rem;
+ font-size:1.5rem;
+ margin-top:2.5rem;
+ 
+ 
+ 
+}
+.contact-icon li a i {
+   
+  text-align: center;
+  
+ }
+ 
+}
+
+@media (min-width:281px) and(max-width:380px){
+  #about{
+   
+   padding:3rem;
+    
+}
+
+#skills{
+  padding:0rem;
+}
+}
+
+@media (max-width:280px){
+  #about .heading{
+   margin-left: -1.5rem;
+    
+}
+.navmargin{
+  margin-left:10px;
+}
+
+.text2{
+  font-size:.9rem;
+  font-weight: bold;
+}
+.contact-icon li {
+
+font-size:1.4rem;
+margin:1.5rem;
+}
+.container p span{
+margin:auto;
+left:0;
+}
+.carousel-img{
+  
+  
+
+max-width:70%;
+margin:auto;
+margin-top:3.5rem;
+
+
+
+
+
+}
+.caurosel-Heading{
+font-size:1.5rem;
+}
+.caurosel-para{
+font-size:1rem;
+margin-top:2rem;
+}
+
+#about p{
+
+ 
+  margin-left:auto;
+}
+#about{
+background-color: #00ffc738;
+  background-size:contain;  
+  text-align: center;
+  
+}
+.introimg{
+  
+ margin-top:1rem;
+  margin-left:auto;
+}
+
+.img1{
+  height:8rem;
+  width:8rem;
+  top:50px;
+  left:75px;
+}
+
+
+
+#skills{
+  padding:0rem;
+}
+}
