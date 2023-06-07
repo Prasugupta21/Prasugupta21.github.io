@@ -10,7 +10,7 @@
 
   
 #about{
-    background-color:#00ffff30;
+    background-image:linear-gradient(to right,#ff9a9e,#fad0c4);
    padding:3rem;
     
 }
@@ -39,7 +39,8 @@
 }
     /* Section */
     #Hobbies{
-      background-color: #b79eca9e;
+      background-image: linear-gradient(to right,#a1c4fd,#c2e9fb);
+
           
     }
     .hobbiesHeading{
@@ -65,8 +66,8 @@
       .skills {
       
         margin: auto;
-       background-color:#a9e0c1fa;
-        
+        background-image:linear-gradient(to right,#fad0c4 , #ffd1ff);
+
         text-align: center;
        
       }
